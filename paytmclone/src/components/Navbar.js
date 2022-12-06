@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import logo from "../assets/images/paytm_logo.png";
 import { MdAccountCircle } from "react-icons/md";
+
 const Navbar = () => {
+  // useEffect(() => {
+  //   window.scrollY(nav > 30) {
+
+  //   }
+
+  // },[])
   return (
     <>
       <header className="flex min-h-[12vh] justify-between bg-sky-100 shadow-2xl">
